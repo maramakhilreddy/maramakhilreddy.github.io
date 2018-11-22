@@ -1,0 +1,64 @@
+/*For dropdown expand when the mouse is hover on dropdown.*/
+		.dropdown:hover>.dropdown-menu{
+			display:block;
+		}	
+		
+		/*Navigation bar brand name for small devices and set small device maximum with here.*/
+		@media only screen and (max-width: 597px) {             				
+			.navbar-brand:before {
+				content: "MAR";
+			}
+		}
+		
+		/*Navigation bar brand name for mediam devices and set mediam device minimum with here.*/
+		@media screen and (min-width: 597px) {									
+			.navbar-brand:before {
+				content: "MARAM AKHIL REDDY";
+			}
+		}
+		
+		/*Navigation bar brand name for large devices and set large device minimum with here.*/
+		@media screen and (min-width: 768px) {									
+			.navbar-brand:before {
+				content: "MAR";
+			}
+		}
+		
+		/*Navigation bar brand name for extra-large devices and set extra-large device minimum with here.*/
+		@media screen and (min-width: 1065px) {									
+			.navbar-brand:before {
+				content: "MARAM AKHIL REDDY";
+				
+			}
+		}
+		
+		.navbar-brand:before {
+			font-family:CLARENDON;Cursive;monospace; 
+			color:white;
+		}
+		
+		/* footer */
+		
+		footer{
+			text-align:center;
+			background-color:#CCD1D1;
+			padding: 1px;
+		}
+		
+		/* for facebook logo */
+		
+		.fb-col{
+	    	color:blue;
+			font-size:40px;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		
+		/* for twitter logo */
+		
+		.twit-col{
+			color:#41d9f4;
+			font-size:40px;
+			padding-left:10px;
+			padding-right:10px;
+		}
